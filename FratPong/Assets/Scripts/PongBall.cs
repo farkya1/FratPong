@@ -46,7 +46,7 @@ public class PongBall : MonoBehaviour
 
     private void Update()
     {
-        if ((pongBallState == ballState.inMotion && rigidbodyBall.velocity.magnitude < .01f) || transform.position.y < 0)
+        if ((pongBallState == ballState.inMotion && rigidbodyBall.velocity.magnitude < .5f) || transform.position.y < 0)
         {
             DestroyBall();
         }
@@ -81,7 +81,7 @@ public class PongBall : MonoBehaviour
 
                     if (flickDirection.magnitude > 50)
                     {
-                        rigidbodyBall.AddForce(flickDirection.x/10, 3, flickDirection.magnitude/100, ForceMode.Impulse);
+                        rigidbodyBall.AddForce(flickDirection.x/100, 3, flickDirection.magnitude/45, ForceMode.Impulse);
                         rigidbodyBall.useGravity = true;
                         pongBallState = ballState.inMotion;
                     }
