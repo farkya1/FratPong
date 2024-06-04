@@ -1,4 +1,6 @@
 
+using AYellowpaper.SerializedCollections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PongGameManager : MonoBehaviour
@@ -20,6 +22,9 @@ public class PongGameManager : MonoBehaviour
 
     //the current pong ball in play
     private GameObject currPongBall;
+
+    [SerializeField]
+    SerializedDictionary<int, List<GameObject>> dictionaryPongNumToOrder = new SerializedDictionary<int, List<GameObject>>();
 
     private void Start()
     {
