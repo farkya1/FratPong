@@ -511,8 +511,6 @@ MonoBehaviour:
   pongBallSpawnLocation: {fileID: 215788988}
   pongBallPrefab: {fileID: 9074747239536367652, guid: 468f5fb1a44436d42acc9ed14aeb169c,
     type: 3}
-  dictionaryPongNumToOrder:
-    _serializedList: []
 --- !u!4 &1948713356
 Transform:
   m_ObjectHideFlags: 0
@@ -540,94 +538,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8450155d16c9ed4ea51152e50fbad32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dictionaryPongNumToOrder:
+  dictionaryPongNumToFormation:
     _serializedList:
     - Key: 10
       Value:
-      - {fileID: 6129368966275201112, guid: 2d09559f11c417f438e0da4d24dcb1cb, type: 3}
+      - {fileID: 11400000, guid: e655a30997607f24ea487c258826996d, type: 2}
     - Key: 6
       Value:
-      - {fileID: 6129368966275201112, guid: 2d09559f11c417f438e0da4d24dcb1cb, type: 3}
+      - {fileID: 11400000, guid: 0bb2d0046ce6c3b47a2c0fb6ba1a0da7, type: 2}
+      - {fileID: 11400000, guid: 0885f5fbf3666f841931e73336ebe44c, type: 2}
     - Key: 5
       Value:
-      - {fileID: 6129368966275201112, guid: 2d09559f11c417f438e0da4d24dcb1cb, type: 3}
+      - {fileID: 11400000, guid: 024e1fb8b121e4047a3e5c2ce6f91711, type: 2}
     - Key: 4
       Value:
-      - {fileID: 6129368966275201112, guid: 2d09559f11c417f438e0da4d24dcb1cb, type: 3}
+      - {fileID: 11400000, guid: 2987e283f37681149b9a3531e4399c83, type: 2}
+      - {fileID: 11400000, guid: b65d89c666bcc6a48b02403dd8d0f391, type: 2}
     - Key: 3
       Value:
-      - {fileID: 6129368966275201112, guid: 2d09559f11c417f438e0da4d24dcb1cb, type: 3}
+      - {fileID: 11400000, guid: 0d837fd9c3d553b479cc3ac497a91d44, type: 2}
+      - {fileID: 11400000, guid: e1a276871f20761419235cb2c7e6174f, type: 2}
     - Key: 2
       Value:
-      - {fileID: 6129368966275201112, guid: 2d09559f11c417f438e0da4d24dcb1cb, type: 3}
---- !u!1001 &6184081847171602565
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 655535101915368397, guid: 662712a5454648d45b059e339875db0b,
-        type: 3}
-      propertyPath: m_Name
-      value: Gentlemens
-      objectReference: {fileID: 0}
-    - target: {fileID: 8092906589509740502, guid: 662712a5454648d45b059e339875db0b,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 8092906589509740502, guid: 662712a5454648d45b059e339875db0b,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.772
-      objectReference: {fileID: 0}
-    - target: {fileID: 8092906589509740502, guid: 662712a5454648d45b059e339875db0b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -7.704
-      objectReference: {fileID: 0}
-    - target: {fileID: 8092906589509740502, guid: 662712a5454648d45b059e339875db0b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8092906589509740502, guid: 662712a5454648d45b059e339875db0b,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8092906589509740502, guid: 662712a5454648d45b059e339875db0b,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8092906589509740502, guid: 662712a5454648d45b059e339875db0b,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8092906589509740502, guid: 662712a5454648d45b059e339875db0b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8092906589509740502, guid: 662712a5454648d45b059e339875db0b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8092906589509740502, guid: 662712a5454648d45b059e339875db0b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 662712a5454648d45b059e339875db0b, type: 3}
+      - {fileID: 11400000, guid: e39f3f7b1785a8d4f8702d7eaae36d34, type: 2}
+  cupSpawnLocation: {fileID: 1518423011}
+  pongGameManager: {fileID: 1948713355}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -638,4 +573,3 @@ SceneRoots:
   - {fileID: 1948713356}
   - {fileID: 215788988}
   - {fileID: 1518423011}
-  - {fileID: 6184081847171602565}

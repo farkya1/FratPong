@@ -22,7 +22,6 @@ public class PongBall : MonoBehaviour
     private Vector2 prevTouchPos;
 
 
-
     private void Start()
     {
         rigidbodyBall = GetComponent<Rigidbody>();

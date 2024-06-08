@@ -1,6 +1,4 @@
 
-using AYellowpaper.SerializedCollections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PongGameManager : MonoBehaviour
@@ -20,11 +18,9 @@ public class PongGameManager : MonoBehaviour
     [Tooltip("The prefab that will spawn the ball")]
     [SerializeField] private GameObject pongBallPrefab;
 
+
     //the current pong ball in play
     private GameObject currPongBall;
-
-    [SerializeField]
-    SerializedDictionary<int, List<GameObject>> dictionaryPongNumToOrder = new SerializedDictionary<int, List<GameObject>>();
 
     private void Start()
     {
@@ -37,6 +33,11 @@ public class PongGameManager : MonoBehaviour
         GameObject pongBallGO = Instantiate(pongBallPrefab, pongBallSpawnLocation.position, Quaternion.identity);
         PongBall pongBallScript = pongBallGO.GetComponent<PongBall>();
         pongBallScript.Initialize(this);
+    }
+
+    public void FinalCupHit()
+    {
+
     }
 
     

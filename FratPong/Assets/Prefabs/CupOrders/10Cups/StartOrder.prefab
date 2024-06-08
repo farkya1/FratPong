@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3633262563186589912}
   - component: {fileID: 1440555944870562636}
   - component: {fileID: 3501595414367095857}
+  - component: {fileID: 5261640704910294076}
   m_Layer: 0
   m_Name: soloCup (2)
   m_TagString: Untagged
@@ -108,6 +109,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1918930550682952855, guid: 906049818edc6264882347cbc24e146a, type: 3}
+--- !u!114 &5261640704910294076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 437093855934320166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df2edfc900fa8e4880a54aa9d620cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &540656587606513816
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,6 +239,7 @@ GameObject:
   - component: {fileID: 8833550565740409665}
   - component: {fileID: 8643819467006931005}
   - component: {fileID: 7152722297240553050}
+  - component: {fileID: 4644288141041119469}
   m_Layer: 0
   m_Name: soloCup (8)
   m_TagString: Untagged
@@ -322,6 +336,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1918930550682952855, guid: 906049818edc6264882347cbc24e146a, type: 3}
+--- !u!114 &4644288141041119469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1030829117579092590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df2edfc900fa8e4880a54aa9d620cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1365889720279786895
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,6 +413,7 @@ GameObject:
   - component: {fileID: 7410653794121652225}
   - component: {fileID: 6167208866761586423}
   - component: {fileID: 2813063645677437707}
+  - component: {fileID: 3670261554916754436}
   m_Layer: 0
   m_Name: soloCup (1)
   m_TagString: Untagged
@@ -483,6 +510,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1918930550682952855, guid: 906049818edc6264882347cbc24e146a, type: 3}
+--- !u!114 &3670261554916754436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1500066253409885713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df2edfc900fa8e4880a54aa9d620cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1796763154039010297
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,6 +534,7 @@ GameObject:
   - component: {fileID: 1404013061224737117}
   - component: {fileID: 7597252824905422242}
   - component: {fileID: 5381400739994947263}
+  - component: {fileID: 8326754530920554329}
   m_Layer: 0
   m_Name: soloCup (5)
   m_TagString: Untagged
@@ -591,6 +631,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1918930550682952855, guid: 906049818edc6264882347cbc24e146a, type: 3}
+--- !u!114 &8326754530920554329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796763154039010297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df2edfc900fa8e4880a54aa9d620cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2576335299713659879
 GameObject:
   m_ObjectHideFlags: 0
@@ -603,6 +655,7 @@ GameObject:
   - component: {fileID: 1303669869449968952}
   - component: {fileID: 7714913109780549018}
   - component: {fileID: 4271381413904895150}
+  - component: {fileID: 5967554425309961563}
   m_Layer: 0
   m_Name: soloCup (4)
   m_TagString: Untagged
@@ -699,6 +752,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1918930550682952855, guid: 906049818edc6264882347cbc24e146a, type: 3}
+--- !u!114 &5967554425309961563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2576335299713659879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df2edfc900fa8e4880a54aa9d620cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2613311250126214093
 GameObject:
   m_ObjectHideFlags: 0
@@ -764,6 +829,7 @@ GameObject:
   - component: {fileID: 8630743567254559767}
   - component: {fileID: 1764532311833299102}
   - component: {fileID: 3061525199502924558}
+  - component: {fileID: 923190059716074656}
   m_Layer: 0
   m_Name: soloCup (7)
   m_TagString: Untagged
@@ -860,6 +926,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1918930550682952855, guid: 906049818edc6264882347cbc24e146a, type: 3}
+--- !u!114 &923190059716074656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2649151700711145219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df2edfc900fa8e4880a54aa9d620cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2792312693732249822
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,6 +1056,7 @@ GameObject:
   - component: {fileID: 6247712611715344998}
   - component: {fileID: 6060837191601450484}
   - component: {fileID: 1300709995568960164}
+  - component: {fileID: 5104626862940046846}
   m_Layer: 0
   m_Name: soloCup
   m_TagString: Untagged
@@ -1074,6 +1153,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1918930550682952855, guid: 906049818edc6264882347cbc24e146a, type: 3}
+--- !u!114 &5104626862940046846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3196974974908113446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df2edfc900fa8e4880a54aa9d620cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4117055041709628057
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,6 +1230,7 @@ GameObject:
   - component: {fileID: 1986489638834858771}
   - component: {fileID: 1807050151753286943}
   - component: {fileID: 7097076549913176234}
+  - component: {fileID: 2411118084520624559}
   m_Layer: 0
   m_Name: soloCup (6)
   m_TagString: Untagged
@@ -1235,6 +1327,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1918930550682952855, guid: 906049818edc6264882347cbc24e146a, type: 3}
+--- !u!114 &2411118084520624559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4220552618239439285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df2edfc900fa8e4880a54aa9d620cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4342192452057464617
 GameObject:
   m_ObjectHideFlags: 0
@@ -1447,6 +1551,7 @@ GameObject:
   - component: {fileID: 1330635098480754532}
   - component: {fileID: 1047362469071593806}
   - component: {fileID: 8693615323436616444}
+  - component: {fileID: 4850014908769930057}
   m_Layer: 0
   m_Name: soloCup (9)
   m_TagString: Untagged
@@ -1543,6 +1648,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1918930550682952855, guid: 906049818edc6264882347cbc24e146a, type: 3}
+--- !u!114 &4850014908769930057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6971934003013215043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df2edfc900fa8e4880a54aa9d620cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7868988534028895381
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,6 +1672,7 @@ GameObject:
   - component: {fileID: 1277639634845558388}
   - component: {fileID: 7737877064462687719}
   - component: {fileID: 2860100798183473729}
+  - component: {fileID: 3915022609978716344}
   m_Layer: 0
   m_Name: soloCup (3)
   m_TagString: Untagged
@@ -1651,3 +1769,15 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1918930550682952855, guid: 906049818edc6264882347cbc24e146a, type: 3}
+--- !u!114 &3915022609978716344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7868988534028895381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8df2edfc900fa8e4880a54aa9d620cc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
